@@ -12,8 +12,8 @@ class App extends React.Component<{},IAppState> {
     this.state={
       count:0
     };
-    this.increment = this.increment.bind(this);
-    this.decrement = this.decrement.bind(this);
+    // this.increment = this.increment.bind(this);
+    // this.decrement = this.decrement.bind(this);
   }
   public increment = () => this.setState({
     count:this.state.count + 1
