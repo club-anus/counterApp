@@ -7,18 +7,20 @@ interface IAppState {
 
 class App extends React.Component<{},IAppState> {
 
-  constractor(props:{}){
+  constructor(props:{}){
     super(props);
     this.state={
       count:0
     };
+    this.increment = this.increment.bind(this);
+    this.decrement = this.decrement.bind(this);
   }
-  increment = () => this.setState({
+  public increment = () => this.setState({
     count:this.state.count + 1
   });
 
 
-  decrement = () => this.setState({
+  public decrement = () => this.setState({
     count:this.state.count -1
   });
 
