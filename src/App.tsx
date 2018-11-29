@@ -33,6 +33,7 @@ class App extends React.Component<{},IAppState> {
        <h1>{this.state.count}</h1>
        <input type={"button"} value={"+"} onClick={this.increment}/>
        <input type={"button"} value={"-"} onClick={this.decrement}/>
+       <h1>gitの練習</h1>
      </div>
     );
   }
