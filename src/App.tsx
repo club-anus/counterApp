@@ -34,6 +34,7 @@ class App extends React.Component<{},IAppState> {
        <input type={"button"} value={"+"} onClick={this.increment}/>
        <input type={"button"} value={"-"} onClick={this.decrement}/>
        <h1>gitの練習</h1>
+       <h1>gitの練習2g</h1>
      </div>
     );
   }
